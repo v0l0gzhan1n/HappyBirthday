@@ -151,3 +151,95 @@ font-size: 20px;
   
 
 }
+.media-xr{
+  position: absolute;
+  opacity: 0;
+}
+@media only screen and (max-device-width: 414px) and (orientation: portrait) {
+  html{
+    width: 414px;
+    height: 896px;
+  }
+  .container{
+    display: flex;
+    margin: 0px;
+  }
+  .logo{
+    margin: 0;
+    height: 48px;
+    width: 48px;
+  }
+  .hear-text{
+    position: absolute;
+    top: -15px;
+    left: 40px;
+    line-height: 1.5;
+    font-size: 16px;
+  }
+  .seti{
+    position: absolute;
+    top: -10px;
+    right: 53px;
+    margin: 20px 25px 0 0;  
+  }
+  .seti1{
+    position: absolute;
+    top: -10px;
+    right: 27px;
+    margin: 20px 0px 0 0; 
+  }
+  body{
+    height: 60px;
+  }
+  .container-2{
+    position: absolute;
+    width: 100px;
+    height: auto;
+  }
+  .text-hb{
+    font-size: 80px;
+    margin: 0 0 20px 0;
+  }
+  .text-pozdr{
+    font-size: 23px;
+    margin: 0;
+    line-height: 1.5;
+    letter-spacing: 0.5;
+  }
+  .HB{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    right: 200;
+    margin: 0;
+  }
+  .text-hb span{
+    margin: 0 0 20px 0 ;
+  }
+  .media-xr{
+    position: absolute;
+    opacity: 1;
+    z-index: 1000;
+    top: 0;
+  }
+  .media-xr img{
+    position: absolute;
+    width: 380px;
+    top: 500px;
+    right: -190px;
+  }
+  .flowers-1{
+    position: absolute;
+    opacity: 0;
+  }
+  .flowers-1{
+    position: absolute;
+    opacity: 0;
+  }
+  .portret{
+      position: absolute;
+      opacity: 0;
+      width: 0;
+      height: 0;
+  }
+}
