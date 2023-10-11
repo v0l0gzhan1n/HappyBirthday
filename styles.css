@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Oswald&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Montserrat:wght@100&family=Oswald&family=Tenor+Sans&display=swap');
+
+
+html{
+width: 1920px;
+height: 863px;
+overflow: hidden;
+}
+header{
+    width: 100%;
+	background: #ffffff;
+	height: 100%;
+     border-bottom: 2px solid;
+     }
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    bottom: 0px;
+  }
+  
+  img {
+    float: left;
+    margin-right:10px;
+  }
+  
+  p {
+    font-family:"Oswald";
+    margin: 22px;
+    font-weight:bold;
+    font-size: 17px;
+    line-height: 2em;
+  }
+
+  .logo{
+    margin-left: 183px;
+    margin-top: 29px;
+  }
+
+  .seti{
+    float: right;
+    margin-right: 240px;
+    margin-top: 29px;
+      }
+      
+   .seti1{
+    float: right;
+    margin-right:13px;
+    margin-top: 29px;
+    margin-left: 10px;
+    }   
+
+body{
+    background-color: #FFF8EE;
+}
+
+.container-2 {
+  width: 50%;
+  margin-top: 150px;
+  height: auto;
+  float: left;
+  display: flex;
+}
+.text-hb{
+    margin-top: 15px;
+    margin-left:233px;
+    font-family: "Italianno";
+    font-weight: bold;
+    line-height: 1em;
+    font-size: 250px;
+    color: rgb(20, 20, 20);
+    margin-bottom: 0px;
+}
+span{
+    margin-left: 90px;
+}
+
+.text-pozdr{
+text-align: justify;
+margin-left: 310px; 
+font-size: 28px;
+font-family: "Montserrat";
+line-height: 1.0em;
+bottom: 0px;
+}
+
+.text-ot{
+margin-left: 430px; 
+font-size: 20px;
+}
+
+
+.container-3{
+  margin-top: 50px;
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  float: right;
+}
+
+.cvet{
+  right:100px;
+  }
+
+.portret{
+ position:absolute; 
+ right: 100px;
+}
+
+.photo-setting{
+   width:550px;
+   height:700px;
+}
+  
+.flowers-1{
+  position:absolute; 
+  right: 540px;
+  margin-top: 350px;
+  z-index: 5;
+}
+
+.flowers-2{
+  position:absolute; 
+  right: -110px;
+  margin-top: 380px;
+  z-index: 5;
+}
+
+
+.back-flowers-1{
+  position: absolute;
+  right: 340px;
+  z-index: -1;
+ bottom: 0;
+
+  
+
+}
+
+.back-flowers-2{
+  position: absolute;
+  right: -5px;
+  z-index: -1;
+ bottom: 0;
+
+  
+
+}
