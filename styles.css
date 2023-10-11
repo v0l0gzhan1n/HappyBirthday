@@ -155,10 +155,10 @@ font-size: 20px;
   position: absolute;
   opacity: 0;
 }
-@media only screen and (max-device-width: 414px) and (orientation: portrait) {
+@media only screen and (max-device-width: 440px) and (orientation: portrait) {
   html{
     width: 414px;
-    height: 896px;
+    height: auto;
   }
   .container{
     display: flex;
@@ -193,18 +193,26 @@ font-size: 20px;
   }
   .container-2{
     position: absolute;
-    width: 100px;
+    width: 400px;
     height: auto;
   }
   .text-hb{
     font-size: 80px;
     margin: 0 0 20px 0;
   }
+  .text-ot{
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+    z-index: 100011;
+    margin-left: 0;
+  }
   .text-pozdr{
     font-size: 23px;
     margin: 0;
     line-height: 1.5;
     letter-spacing: 0.5;
+    text-align: justify;
   }
   .HB{
     display: flex;
@@ -212,6 +220,7 @@ font-size: 20px;
     flex-direction: column;
     right: 200;
     margin: 0;
+    width: 400px;
   }
   .text-hb span{
     margin: 0 0 20px 0 ;
