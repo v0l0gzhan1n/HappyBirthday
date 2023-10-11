@@ -155,7 +155,7 @@ font-size: 20px;
   position: absolute;
   opacity: 0;
 }
-@media only screen and (min-width: 440px) and (orientation: portrait) {
+@media only screen and (max-device-width: 440px) and (orientation: portrait) {
   html{
     width: 414px;
     height: auto;
